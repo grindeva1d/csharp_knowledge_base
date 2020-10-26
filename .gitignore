@@ -348,3 +348,7 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# JetBrains IDEs specific files
+# Original records from source related to this folder have been deleted as unnecessary
+.idea/
