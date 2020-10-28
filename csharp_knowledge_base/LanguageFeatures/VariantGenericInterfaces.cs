@@ -4,7 +4,7 @@ namespace LanguageFeatures
 {
     public class CovariantInterface : ICovariantInterface<Derived>
     {
-        public Base DoSomething()
+        public Derived DoSomething()
         {
             throw new NotImplementedException();
         }
@@ -14,7 +14,7 @@ namespace LanguageFeatures
             throw new NotImplementedException();
         }
     }
-    
+
     // Covariance allows interface methods to have more derived return types than that defined by the generic type parameters.
     public interface ICovariantInterface<out T>
     {

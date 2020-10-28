@@ -4,10 +4,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguageFeatures", "Languag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Executor", "Executor\Executor.csproj", "{1D6B69D4-F81D-4CB0-A0C7-F69AF69D515C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DDD", "DDD", "{E0479BB0-99B4-4F37-92EC-226F4C577371}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{F43243B0-8F9D-429E-A12D-B43129CB3148}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,12 +18,7 @@ Global
 		{1D6B69D4-F81D-4CB0-A0C7-F69AF69D515C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D6B69D4-F81D-4CB0-A0C7-F69AF69D515C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D6B69D4-F81D-4CB0-A0C7-F69AF69D515C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F43243B0-8F9D-429E-A12D-B43129CB3148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F43243B0-8F9D-429E-A12D-B43129CB3148}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F43243B0-8F9D-429E-A12D-B43129CB3148}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F43243B0-8F9D-429E-A12D-B43129CB3148}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{F43243B0-8F9D-429E-A12D-B43129CB3148} = {E0479BB0-99B4-4F37-92EC-226F4C577371}
 	EndGlobalSection
 EndGlobal

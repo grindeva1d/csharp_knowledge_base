@@ -1,5 +1,6 @@
 ﻿using System;
 using LanguageFeatures;
+using Repositories;
 
 namespace Executor
 {
@@ -7,7 +8,9 @@ namespace Executor
     {
         static void Main(string[] args)
         {
-            Memoization.Example().Wait();
+            // Memoization.Example().Wait();
+            
+            CollectionOrientedRepositoryExample.Run();
 
             Console.WriteLine("Hello World!");
         }
